@@ -1,0 +1,19 @@
+apiVersion: apm.k8s.elastic.co/v1
+kind: ApmServer
+metadata:
+  name: apm-server-quickstart
+  namespace: default
+spec:
+  version: 8.12.0
+  http:
+    service:
+      spec:
+        type: LoadBalancer
+    tls:
+      selfSignedCertificate:
+        disabled: true
+  count: 1
+  elasticsearchRef:
+    name: quickstart
+  kibanaRef:
+    name: quickstart
