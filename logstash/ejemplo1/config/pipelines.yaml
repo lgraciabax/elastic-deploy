@@ -1,0 +1,6 @@
+- pipeline.id: pipeline_carrito
+  path.config: "/usr/share/logstash/pipeline/pipeline_carrito.conf"
+- pipeline.id: pipeline_productos
+  path.config: "/usr/share/logstash/pipeline/pipeline_productos.conf"
+- pipeline.id: pipeline_users
+  path.config: "/usr/share/logstash/pipeline/pipeline_users.conf"
