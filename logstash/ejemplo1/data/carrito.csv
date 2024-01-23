@@ -1,0 +1,4 @@
+id,userId,dateCreated,cartItems
+cart001,user001,2024-01-23,cartItem001,cart001,product001,1
+cart002,user002,2024-01-24,cartItem002,cart001,product003,2
+cart003,user003,2024-01-25,cartItem003,cart002,product002,1
