@@ -12,3 +12,4 @@ spec:
     - ReadWriteOnce
   hostPath:
     path: "/run/desktop/mnt/host/c/dev/volumes/elastic-data/"
+    type: DirectoryOrCreate
